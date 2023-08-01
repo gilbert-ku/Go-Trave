@@ -17,11 +17,11 @@ function Beaches() {
       return(
         <div key={item.id} className='beach-item'>
           <img className="beach-image"src={item.image_url}/>
-          <div>
+          <div className='beach-details'>
             <h4>{item.name}</h4>
-            <p>{item.location}</p>
-            <p>{item.avg_price_per_night}</p>
-            <p>{item.rating}</p>
+            <p>Location: {item.location}</p>
+            <p>Avg Price Per Night: {item.avg_price_per_night}</p>
+            <p>Rating:{item.rating}</p>
           </div>
         </div>
       )
