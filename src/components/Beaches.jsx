@@ -4,15 +4,13 @@ import Maps from "./Maps"
 
 function Beaches() {
     const[data,setData]=useState([]) //state to hold the fetched data
-    const [showMap, setShowMap] = useState(false); // state to show the map
 //fetching the data using the useffect hook
     useEffect(()=>{
         fetch("https://travel-ke.onrender.com/hotels")
         .then(res=>res.json())
         .then(data=>{
             setData(data)
-            console.log(data)
-        })
+      })
     },[])
     // function to toggle the view map 
     function handleView(){
