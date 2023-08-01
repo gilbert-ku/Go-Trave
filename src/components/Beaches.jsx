@@ -4,7 +4,12 @@ import React,{useEffect,useState} from 'react'
 function Beaches() {
     const[data,setData]=useState([]) //state to hold the fetched data
     const[searchTerm,setSearchTerm]=useState("")//state to hold the users' input
-
+//filtering the beaches based on the search term
+const filteredBeaches=data.filter((location)=>{
+return(
+  location.description.toLowerCase().includes(searchTerm).toLowerCase()
+)  //checking to see if the description includes  the search term
+})
     useEffect(()=>{
         fetch("https://travel-ke.onrender.com/hotels")
         .then(res=>res.json())
