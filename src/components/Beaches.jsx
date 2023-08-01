@@ -20,7 +20,7 @@ function Beaches() {
           <div className='beach-details'>
             <h4>{item.name}</h4>
             <p>Location: {item.location}</p>
-            <p>Avg Price Per Night: {item.avg_price_per_night}</p>
+            <p>Avg Price Per Night: ${item.avg_price_per_night}</p>
             <p>Rating:{item.rating}</p>
           </div>
         </div>
