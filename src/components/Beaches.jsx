@@ -18,7 +18,10 @@ function Beaches() {
         <div>
           <img src={item.image_url}/>
           <div>
-            <h4>{}</h4>
+            <h4>{item.name}</h4>
+            <p>{item.location}</p>
+            <p>{item.avg_price_per_night}</p>
+            <p>{item.rating}</p>
           </div>
         </div>
       )
@@ -26,8 +29,9 @@ function Beaches() {
     })
   return (
     <>
-      <displayBeaches/>
+      {displayBeaches}
     </>
+   
   )
 }
 
