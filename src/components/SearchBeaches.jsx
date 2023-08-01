@@ -26,24 +26,24 @@ function SearchBeaches({ beaches = [] }) {
         {/* conditional rendering to display the beaches based on the users' search input */}
         {searchTerm !== ""
           ? filteredBeaches.map((item) => (
-              <div key={item.id} className='beach-item'>
+              <div key={item.name} className='beach-item'>
                 <img className="beach-image" src={item.image_url} alt={item.name} />
                 <div className='beach-details'>
                   <h4>{item.name}</h4>
-                  <p>Location: {item.location}</p>
-                  <p>Avg Price Per Night: ${item.avg_price_per_night}</p>
-                  <p>Rating: {item.rating}</p>
+                  <p><b>Location:</b> {item.location}</p>
+                  <p><b>Avg Price Per Night:</b> ${item.avg_price_per_night}</p>
+                  <p><b>Rating:</b> {item.rating}</p>
                 </div>
               </div>
             ))
           : beaches.map((item) => (
-              <div key={item.id} className='beach-item'>
+              <div key={item.name} className='beach-item'>
                 <img className="beach-image" src={item.image_url} alt={item.name} />
                 <div className='beach-details'>
                   <h4>{item.name}</h4>
-                  <p>Location: {item.location}</p>
-                  <p>Avg Price Per Night: ${item.avg_price_per_night}</p>
-                  <p>Rating: {item.rating}</p>
+                  <p><b>Location:</b> {item.location}</p>
+                  <p><b>Avg Price Per Night:</b> ${item.avg_price_per_night}</p>
+                  <p><b>Rating:</b> {item.rating}</p>
                 </div>
               </div>
             ))}
