@@ -6,7 +6,7 @@ import AddHotelForm from './components/AddHotelForm';
 function App() {
     return(
         <div>
-
+           <AddHotelForm />
             <Hotels />
         </div>
         
