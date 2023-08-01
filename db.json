@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "ranches": [
       {
         "id": 1,
@@ -196,3 +197,134 @@
   }
   
 >>>>>>> 8de9e24 (added data)
+=======
+  "hotels": [
+  {
+    "name": "Luxury Resort & Spa",
+    "rating": 4.7,
+    "location": "Diani Beach, Mombasa, Kenya",
+    "image_url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 250
+  },
+  {
+    "name": "Seaside Inn",
+    "rating": 4.3,
+    "location": "Miami Beach, Florida, USA",
+    "image_url": "https://images.unsplash.com/photo-1618245318763-a15156d6b23c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjBiZWFjaGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 200
+  },
+  {
+    "name": "Tropical Oasis Resort",
+    "rating": 4.4,
+    "location": "Mombasa Beach, Kenya",
+    "image_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBuZWFyJTIwYmVhY2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 280
+  },
+  {
+    "name": "Island Paradise Resort",
+    "rating": 4.5,
+    "location": "Maui, Hawaii, USA",
+    "image_url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 320
+  },
+  {
+    "name": "Serenity Spa Retreat",
+    "rating": 4.9,
+    "location": "Cape Town, South Africa",
+    "image_url": "https://images.unsplash.com/photo-1549294413-26f195200c16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjBuZWFyJTIwYmVhY2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 300
+  },
+  {
+    "name": "Desert Mirage Hotel",
+    "rating": 4.4,
+    "location": "Dubai, United Arab Emirates",
+    "image_url": "https://images.unsplash.com/photo-1535827841776-24afc1e255ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 230
+  },
+  {
+    "name": "Paradise Beachfront Resort",
+    "rating": 4.6,
+    "location": "Bora Bora, French Polynesia",
+    "image_url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 420
+  },
+  {
+    "name": "Coastal Retreat Resort",
+    "rating": 4.3,
+    "location": "Myrtle Beach, South Carolina, USA",
+    "image_url": "https://images.unsplash.com/photo-1506059612708-99d6c258160e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 190
+  },
+  {
+    "name": "Zanzibar Beach Resort",
+    "rating": 4.5,
+    "location": "Stone Town, Zanzibar, Tanzania",
+    "image_url": "https://images.unsplash.com/photo-1622396089527-b40d16c63aba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 290
+  },
+  {
+    "name": "Beachfront Bliss Hotel",
+    "rating": 4.7,
+    "location": "Waikiki Beach, Hawaii, USA",
+    "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 310
+  },
+  {
+    "name": "Cape Cod Beach Resort",
+    "rating": 4.2,
+    "location": "Cape Cod, Massachusetts, USA",
+    "image_url": "https://images.unsplash.com/photo-1445546857131-5fc39d1c51f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 180
+  },
+  {
+    "name": "Sandy Shores Resort",
+    "rating": 4.6,
+    "location": "Cancún, Quintana Roo, Mexico",
+    "image_url": "https://images.unsplash.com/photo-1506812428898-fe5a708f5359?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 240
+  },
+  {
+    "name": "Mauritius Beach Haven",
+    "rating": 4.8,
+    "location": "Grand Baie, Mauritius",
+    "image_url": "https://images.unsplash.com/photo-1525596662741-e94ff9f26de1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTN8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 380
+  },
+  {
+    "name": "Hawaiian Beach Retreat",
+    "rating": 4.5,
+    "location": "Hilo, Hawaii, USA",
+    "image_url": "https://images.unsplash.com/photo-1567636788276-40a47795ba4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA5fHxob3RlbCUyMG5lYXIlMjBiZWFjaGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 270
+  },
+  {
+    "name": "Mombasa Beachfront Lodge",
+    "rating": 4.2,
+    "location": "Mombasa, Kenya",
+    "image_url": "https://images.unsplash.com/photo-1681770199488-ca268e6a9559?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIyfHxob3RlbCUyMG5lYXIlMjBiZWFjaGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 150
+  },
+  {
+    "name": "Caribbean Beach Hideaway",
+    "rating": 4.7,
+    "location": "St. Lucia, Caribbean",
+    "image_url": "https://images.unsplash.com/photo-1666081390937-2af460ef68f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjI0fHxob3RlbCUyMG5lYXIlMjBiZWFjaGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 320
+  },
+  {
+    "name": "Florida Keys Beach Resort",
+    "rating": 4.6,
+    "location": "Key West, Florida, USA",
+    "image_url": "https://images.unsplash.com/photo-1613429547334-553cddaa781f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQwfHxob3RlbCUyMG5lYXIlMjBiZWFjaGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 290
+  },
+  {
+    "name": "Seychelles Beachfront Villa",
+    "rating": 4.9,
+    "location": "Mahé, Seychelles",
+    "image_url": "https://images.unsplash.com/photo-1576504446184-d4ce8e6f2adf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjUwfHxob3RlbCUyMG5lYXIlMjBiZWFjaGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    "avg_price_per_night": 380
+  }
+]
+}
+>>>>>>> db620b2 (modified data)
