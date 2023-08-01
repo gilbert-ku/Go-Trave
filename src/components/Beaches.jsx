@@ -2,7 +2,8 @@ import React,{useEffect,useState} from 'react'
 
 
 function Beaches() {
-    const[data,setData]=useState([])
+    const[data,setData]=useState([]) //state to hold the fetched data
+    const[searchTerm,setSearchTerm]=useState("")//state to hold the users' input
 
     useEffect(()=>{
         fetch("https://travel-ke.onrender.com/hotels")
