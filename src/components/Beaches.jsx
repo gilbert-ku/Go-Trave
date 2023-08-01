@@ -15,8 +15,8 @@ function Beaches() {
 
     const displayBeaches=data.map((item)=>{
       return(
-        <div>
-          <img src={item.image_url}/>
+        <div key={item.id} className='beach-item'>
+          <img className="beach-image"src={item.image_url}/>
           <div>
             <h4>{item.name}</h4>
             <p>{item.location}</p>
@@ -28,9 +28,9 @@ function Beaches() {
 
     })
   return (
-    <>
+    <div className='main-container'>
       {displayBeaches}
-    </>
+    </div>
    
   )
 }
