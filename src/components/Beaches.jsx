@@ -28,9 +28,17 @@ function Beaches() {
 
     })
   return (
-    <div className='main-container'>
-      {displayBeaches}
+    <>
+    <div className='beach-form-container'>
+        <form action="">
+          <input placeholder='search' className='search-beaches'/>
+        </form>
     </div>
+    
+        <div className='main-container'>
+          {displayBeaches}
+        </div>
+    </>
    
   )
 }
