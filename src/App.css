@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly; 
     gap: 20px; 
-    margin-top: 10%;
+    margin-top: 3%;
     font-family: 'Raleway', sans-serif;
   }
   /* image styling */
@@ -24,3 +24,18 @@
   .beach-details{
     padding-left: 20px;
   }
+  /* search input styling */
+  .search-beaches{
+    padding: 12px;
+    background-color: rgb(151, 187, 197, 0.599);
+    border-radius: 20px;
+    border-color: rgb(236,233,233);
+    outline: none; 
+    border: 1px solid rgb(151, 187, 197, 0.599);
+    width: 80%;
+    margin-left: 10%;
+    font-size: 16px;
+    margin-top:20px
+    
+  }
+  
