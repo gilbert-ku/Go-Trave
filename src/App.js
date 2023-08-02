@@ -19,8 +19,8 @@ function App() {
   }, []);
 
   const handleBooking = (formData) => {
-    // Logic for handling park booking (using formData.name and formData.duration)
-    console.log('Booking park:', formData);
+    // Logic for handling ranch booking (using formData.name and formData.duration)
+    console.log('Booking ranch:', formData);
     // Perform booking operations here
   };
 
@@ -32,12 +32,10 @@ function App() {
   };
 
   return (
-    
     <div className='main-container'>
-        <Search ranches={ranches} onSearch={handleSearch} />
-        <RanchList ranches={filteredRanches.length > 0 ? filteredRanches : ranches} />
-        <BookingForm onBooking={handleBooking} />
-     
+      <Search ranches={ranches} onSearch={handleSearch} />
+      <RanchList ranches={filteredRanches.length > 0 ? filteredRanches : ranches} />
+      <BookingForm onBooking={handleBooking} />
     </div>
   );
 }
