@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 
-function AddHotelForm() {
+function Form() {
     const [image, setImage] = useState("");
     const [name, setName] = useState("");
     const [address, setAddress] = useState("");
@@ -40,7 +40,7 @@ function AddHotelForm() {
         }
       }
     
-    // state for tracking the id of the new hotel
+    // Create a state for tracking the id of the new hotel
     const [newHotelId, setNewHotelId] = useState(1);
   
     async function handleSubmit(e) {
@@ -54,6 +54,7 @@ function AddHotelForm() {
         rating,
         amenities,
       };
+      
   
       try {
         const response = await fetch("http://localhost:8001/hotels", {
@@ -79,6 +80,7 @@ function AddHotelForm() {
         console.error("Error sending data", error);
       }
     }
+    
   return (
     <div >
       <h1>Add hotel</h1>
@@ -183,6 +185,6 @@ function AddHotelForm() {
   );
 }
 
-export default AddHotellForm;
+export default Form;
 
 

@@ -1,4 +1,4 @@
-// import "./Cards.css"
+
 import React, { useState, useEffect } from "react";
 
 function Hotels() {
