@@ -5,7 +5,7 @@ function Hotels() {
   const [hotels, setHotels] = useState([]);
 
   useEffect(() => {
-    fetch(" http://localhost:8001/hotels")  
+    fetch("https://hotels-server-x471.onrender.com/hotels")  
       .then((response) => response.json())
       .then((data) => {
         setHotels(data);

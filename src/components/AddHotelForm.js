@@ -57,7 +57,7 @@ function Form() {
       
   
       try {
-        const response = await fetch("http://localhost:8001/hotels", {
+        const response = await fetch("https://hotels-server-x471.onrender.com/hotels", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
