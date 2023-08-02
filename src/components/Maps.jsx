@@ -90,9 +90,12 @@ function  Maps()
 {
   return (
     //initializing the mapcontainer
-    <MapContainer center={[-4.0435, 39.6682]} zoom={13} style={{ height: '600px', width: '100%' }} icon={customIcon}>
+    <MapContainer center={[-4.0435, 39.6682]} zoom={13} style={{ height: '100vh', width: '100%' }} icon={customIcon}>
       <TileLayer
-        url={`https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=UVPZgdQusaRhApOBFrAq`}/>
+        url={`https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=UVPZgdQusaRhApOBFrAq`}
+        maxZoom={20} //max zoom level
+        minZoom={1.5} 
+        />
       {/*  markers for the locations */}
       {
         markers.map((marker)=>(
