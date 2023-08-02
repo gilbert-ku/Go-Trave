@@ -6,10 +6,10 @@ function App() {
         <div>
             <AddHotelForm />
             <Hotels />
+            <Beaches/>
         </div>
         
     )
 
-}
 
 export default App;
