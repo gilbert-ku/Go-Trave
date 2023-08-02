@@ -10,8 +10,10 @@ function Beaches() {
         fetch("https://travel-ke.onrender.com/hotels")
         .then(res=>res.json())
         .then(data=>{
+
             setData(data) // using the function to set the data 
             console.log(data)
+            setData(data)
         })
     },[])
     // function to toggle the view map 
