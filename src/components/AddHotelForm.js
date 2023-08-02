@@ -40,7 +40,7 @@ function AddHotelForm() {
         }
       }
     
-    // state to tracking the id of the new hotel
+    // state for tracking the id of the new hotel
     const [newHotelId, setNewHotelId] = useState(1);
   
     async function handleSubmit(e) {
@@ -164,10 +164,25 @@ function AddHotelForm() {
           Submit
         </button>
       </form>
+
+      <h2>Newly added hotels</h2>
+        <div className="mainContainer">
+        {hotelsList.map((hotel, index) => (
+          <div key={index} className="hotelCards">
+            <img src={hotel.image_url} alt={`Hotel: ${hotel.name}`} />
+            <h1>{hotel.name}</h1>
+            <p>{hotel.address}</p>
+            <p>{hotel.description}</p>
+            <p>Price: {hotel.price}</p>
+            <p>Rating: {hotel.rating}</p>
+            <p>Amenities: {hotel.amenities.join(', ')}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
 
-export default AddHotelForm;
+export default AddHotellForm;
 
 
