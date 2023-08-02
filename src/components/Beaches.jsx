@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import SearchBeaches from './SearchBeaches'
+import Maps from "./Maps"
 
 function Beaches() {
     const[data,setData]=useState([]) //state to hold the fetched data
@@ -15,6 +16,7 @@ function Beaches() {
   return (
     <>
         <SearchBeaches beaches={data}/>
+        <Maps/>
     </>
    
   )
