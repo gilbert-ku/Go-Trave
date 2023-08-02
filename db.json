@@ -1,0 +1,197 @@
+{
+    "ranches": [
+      {
+        "id": 1,
+        "image_url": "https://images.unsplash.com/photo-1496278154161-47363e912906?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuY2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Lazy P Ranch",
+        "location": "Montana, USA",
+        "size": "500 acres",
+        "description": "The Lazy P Ranch is a sprawling ranch located in the picturesque Montana countryside. It offers breathtaking views, ample grazing land, and excellent facilities for horse breeding and training."
+        
+      },
+      {
+        "id": 2,
+        "image_url": "https://images.unsplash.com/photo-1627334863919-35e2786f7e15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmFuY2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Rocking H Ranch",
+        "location": "Texas, USA",
+        "size": "1000 acres",
+        "description": "The Rocking H Ranch is a massive ranch nestled in the heart of Texas. It boasts vast open spaces, cattle ranching facilities, and a charming western-style ranch house."
+        
+      },
+      {
+        "id": 3,
+        "name": "Sunset Vista Ranch",
+        "location": "Arizona, USA",
+        "size": "750 acres",
+        "description": "Sunset Vista Ranch is a beautiful ranch situated in the Sonoran Desert of Arizona. It offers a mix of desert landscapes, lush green areas, and modern amenities for a luxurious ranch living experience.",
+        "image_url": "https://images.unsplash.com/photo-1627334848323-6ce21facb54b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80"
+      },
+      {
+        "id": 4,
+        "name": "Majestic Meadows Ranch",
+        "location": "Colorado, USA",
+        "size": "1200 acres",
+        "description": "Majestic Meadows Ranch is a vast and scenic ranch in Colorado, surrounded by majestic mountains and abundant wildlife. It's an ideal destination for nature lovers and outdoor enthusiasts.",
+        "image_url": "https://images.unsplash.com/photo-1627334863919-35e2786f7e15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+      },
+      {
+        "id": 5,
+        "name": "Whispering Pines Ranch",
+        "location": "Oregon, USA",
+        "size": "800 acres",
+        "description": "Nestled in the lush forests of Oregon, Whispering Pines Ranch offers a serene and secluded setting, perfect for those seeking a tranquil retreat.",
+        "image_url": "https://images.unsplash.com/photo-1641569556232-84eef2007c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+      },
+      {
+        "id": 6,
+        "name": "Serenity Valley Ranch",
+        "location": "Wyoming, USA",
+        "size": "900 acres",
+        "description": "Serenity Valley Ranch is a picturesque ranch in Wyoming, with rolling hills and pristine waterways. It's an idyllic place for ranching, fishing, and enjoying the great outdoors.",
+        "image_url": "https://images.unsplash.com/photo-1632720167297-0e5dbc8b9a50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+      },
+      {
+        "id": 7,
+        "name": "Wilderness Trails Ranch",
+        "location": "Montana, USA",
+        "size": "1500 acres",
+        "description": "Wilderness Trails Ranch is an expansive ranch in Montana, surrounded by unspoiled wilderness and offering a range of outdoor activities, including hiking, fishing, and horseback riding.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1677850457403-24e7fa620594?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "id": 8,
+        "name": "Golden Oak Ranch",
+        "location": "California, USA",
+        "size": "1100 acres",
+        "description": "Golden Oak Ranch is a charming ranch in California with golden meadows and oak trees. It's an excellent venue for events, weddings, and outdoor gatherings.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1677575241227-d23219bef088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+      },
+      {
+        "id": 9,
+        "name": "Rustic Retreat Ranch",
+        "location": "Colorado, USA",
+        "size": "850 acres",
+        "description": "Rustic Retreat Ranch is a peaceful retreat in the heart of Colorado. With its rustic cabins and natural beauty, it's a perfect escape from the hustle and bustle of city life.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1677574872201-4bbd3c68fd6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+      },
+      {
+        "id": 10,
+        "name": "Starlight Valley Ranch",
+        "location": "Montana, USA",
+        "size": "1300 acres",
+        "description": "Starlight Valley Ranch is a sprawling ranch in Montana, renowned for its stargazing opportunities and vast open skies. It's an incredible location for astronomy enthusiasts.",
+        "image_url": "https://images.unsplash.com/photo-1545333547-01945a994684?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+      }
+    ]
+  }
+
+    "hotels": [
+      {
+        "name": "Luxury Resort & Spa",
+        "rating": 4.7,
+        "location": "Beachfront Paradise",
+        "image_url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 250
+      },
+      {
+        "name": "Cozy Cottage Retreat",
+        "rating": 4.2,
+        "location": "Mountain Getaway",
+        "image_url": "https://images.unsplash.com/photo-1600255821058-c4f89958d700?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmVhY2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 150
+      },
+      {
+        "name": "Urban Boutique Hotel",
+        "rating": 4.5,
+        "location": "City Center",
+        "image_url": "https://images.unsplash.com/photo-1590523278191-995cbcda646b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmVhY2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 180
+      },
+      {
+        "name": "Rustic Lodge",
+        "rating": 4.0,
+        "location": "Woodland Retreat",
+        "image_url": "https://images.unsplash.com/photo-1580223530509-849e0ad583ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 120
+      },
+      {
+        "name": "Seaside Inn",
+        "rating": 4.3,
+        "location": "Coastal Getaway",
+        "image_url": "https://images.unsplash.com/photo-1618245318763-a15156d6b23c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjBiZWFjaGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 200
+      },
+      {
+        "name": "Mountain Vista Lodge",
+        "rating": 4.6,
+        "location": "Alpine Wonderland",
+        "image_url": "https://images.unsplash.com/photo-1643756434175-c72ebaef7161?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiZWFjaGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 180
+      },
+      {
+        "name": "Historic Manor House",
+        "rating": 4.8,
+        "location": "Countryside Charm",
+        "image_url": "https://images.unsplash.com/photo-1663529472415-e4d1a93bbc63?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiZWFjaGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 220
+      },
+      {
+        "name": "Tropical Oasis Resort",
+        "rating": 4.4,
+        "location": "Jungle Hideaway",
+        "image_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBuZWFyJTIwYmVhY2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 280
+      },
+      {
+        "name": "Modern Cityscape Hotel",
+        "rating": 4.1,
+        "location": "Downtown Skyline",
+        "image_url": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBuZWFyJTIwYmVhY2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 190
+      },
+      {
+        "name": "Serenity Spa Retreat",
+        "rating": 4.9,
+        "location": "Tranquil Garden",
+        "image_url": "https://images.unsplash.com/photo-1549294413-26f195200c16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjBuZWFyJTIwYmVhY2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 300
+      },
+      {
+        "name": "Island Paradise Resort",
+        "rating": 4.5,
+        "location": "Secluded Island",
+        "image_url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 320
+      },
+      {
+        "name": "Historic City Inn",
+        "rating": 4.3,
+        "location": "Old Town Heritage",
+        "image_url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 140
+      },
+      {
+        "name": "Ski Lodge Retreat",
+        "rating": 4.6,
+        "location": "Winter Wonderland",
+        "image_url": "https://images.unsplash.com/photo-1506059612708-99d6c258160e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 210
+      },
+      {
+        "name": "Lakeside Cabin",
+        "rating": 4.2,
+        "location": "Waterfront View",
+        "image_url": "https://images.unsplash.com/photo-1622396089527-b40d16c63aba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 170
+      },
+      {
+        "name": "Desert Mirage Hotel",
+        "rating": 4.4,
+        "location": "Sandy Dunes",
+        "image_url": "https://images.unsplash.com/photo-1535827841776-24afc1e255ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGhvdGVsJTIwbmVhciUyMGJlYWNoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "avg_price_per_night": 230
+      }
+    ]
+  }
+  
+
