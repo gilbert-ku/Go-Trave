@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import Home from './pages/Home';
 import Hotels from "./components/Hotels";
 import AddHotelForm from './components/AddHotelForm';
 import RanchList from './components/RanchList';
@@ -21,6 +22,7 @@ function App() {
       .catch((error) => console.error('Error fetching ranch data:', error));
   }, []);
 
+
   const handleBooking = (formData) => {
    
     console.log('Booking ranch:', formData);
@@ -36,6 +38,7 @@ function App() {
 
   return (
     <div className='main-container'>
+      <Home />
       <AddHotelForm />
       <Hotels />
       <Beaches />
