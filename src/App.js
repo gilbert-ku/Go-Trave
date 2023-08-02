@@ -1,15 +1,16 @@
 import './App.css';
 import Hotels from "./components/Hotels";
 import AddHotelForm from './components/AddHotelForm';
-function App() 
+import Beaches from './components/Beaches';
+function App() {
     return(
         <div>
             <AddHotelForm />
             <Hotels />
-            <Beaches/>
+            <Beaches />
         </div>
         
     )
-
+    }
 
 export default App;
