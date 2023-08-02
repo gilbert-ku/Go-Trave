@@ -1,0 +1,64 @@
+{
+    "parks": [
+      {
+        "name": "Central Park",
+        "location": "New York City, USA",
+        "description": "Central Park is an urban park in Manhattan, New York City. It is one of the most famous parks in the world and a popular destination for both locals and tourists.",
+        "image_url": "https://images.unsplash.com/photo-1590993376597-7c881f072c80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80"
+      },
+      {
+        "name": "Golden Gate Park",
+        "location": "San Francisco, USA",
+        "description": "Golden Gate Park is a large urban park in San Francisco, California. It offers a variety of attractions, including museums, gardens, lakes, and scenic trails.",
+        "image_url": "https://images.unsplash.com/photo-1587832711089-1d091d8e131d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1076&q=80"
+      },
+      {
+        "name": "Hyde Park",
+        "location": "London, UK",
+        "description": "Hyde Park is a historic park in the heart of London. It is known for its vast green spaces, beautiful gardens, and iconic landmarks like the Serpentine lake.",
+        "image_url": "https://images.unsplash.com/photo-1610110269180-a298e213d3a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+      },
+      {
+        "name": "Central Park West",
+        "location": "New York City, USA",
+        "description": "Central Park West is a section of Central Park that offers stunning views of the Manhattan skyline and is home to famous attractions like the Bethesda Terrace and Bow Bridge.",
+        "image_url": "https://images.unsplash.com/photo-1588202203133-f0eb58f4536a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+      },
+      {
+        "name": "Yosemite National Park",
+        "location": "California, USA",
+        "description": "Yosemite National Park is a breathtaking natural wonder in California, known for its majestic waterfalls, giant sequoias, and stunning granite cliffs like El Capitan.",
+        "image_url": "https://images.unsplash.com/photo-1588202203133-f0eb58f4536a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+      },
+      {
+        "name": "Vondelpark",
+        "location": "Amsterdam, Netherlands",
+        "description": "Vondelpark is a popular city park in Amsterdam, Netherlands. It's an oasis of greenery in the bustling city, offering walking and cycling paths, ponds, and open-air theater.",
+        "image_url": "https://images.unsplash.com/photo-1627935392688-1b85eb5095bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+      },
+      {
+        "name": "Stanley Park",
+        "location": "Vancouver, Canada",
+        "description": "Stanley Park is a sprawling urban park in Vancouver, Canada, offering stunning views of the city, lush forests, and beautiful beaches along the Seawall.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1678559034015-a487448e473b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80"
+      },
+      {
+        "name": "Erawan National Park",
+        "location": "Kanchanaburi, Thailand",
+        "description": "Erawan National Park is a tropical paradise in Thailand, famous for its emerald green Erawan Waterfall, which consists of seven tiers and is ideal for hiking and swimming.",
+        "image_url": "https://images.unsplash.com/photo-1560651471-d7fca5abfd5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+      },
+      {
+        "name": "Griffith Park",
+        "location": "Los Angeles, USA",
+        "description": "Griffith Park is a vast urban park in Los Angeles, California. It's home to the iconic Griffith Observatory and offers panoramic views of the city and the Hollywood Sign.",
+        "image_url": "https://images.unsplash.com/photo-1598334670437-ca4f4ee51687?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+      },
+      {
+        "name": "Nara Park",
+        "location": "Nara, Japan",
+        "description": "Nara Park is a tranquil park in Nara, Japan, known for its friendly deer population and historic temples like Todai-ji, which houses the Great Buddha statue.",
+        "image_url": "https://images.unsplash.com/photo-1598334670437-ca4f4ee51687?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+      }
+    ]
+  }
