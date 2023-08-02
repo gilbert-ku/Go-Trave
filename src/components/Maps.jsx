@@ -6,7 +6,7 @@ import { Icon } from 'leaflet';
 //adding a custom icon
 const customIcon= new Icon({
     iconUrl: "https://cdn-icons-png.flaticon.com/128/684/684908.png",
-    iconSize:[20,22]
+    iconSize:[38,40]
 
 })
 //adding the locations of the beaches
@@ -90,13 +90,13 @@ function  Maps()
 {
   return (
     //initializing the mapcontainer
-    <MapContainer center={[34.0522, -118.2437]} zoom={13} style={{ height: '600px', width: '100%' }} icon={customIcon}>
+    <MapContainer center={[-4.0435, 39.6682]} zoom={13} style={{ height: '600px', width: '100%' }} icon={customIcon}>
       <TileLayer
         url={`https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=UVPZgdQusaRhApOBFrAq`}/>
       {/*  markers for the locations */}
       {
         markers.map((marker)=>(
-            <Marker position={marker.geoCode} icon={customIcon}>
+            <Marker key={marker.popUp} position={marker.geoCode} icon={customIcon}>
                 <Popup>{marker.popUp}</Popup>
             </Marker>
         ))
