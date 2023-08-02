@@ -4,6 +4,7 @@ import Maps from "./Maps"
 
 function Beaches() {
     const[data,setData]=useState([]) //state to hold the fetched data
+    const [showMap, setShowMap] = useState(false); // state to show the map
 //fetching the data using the useffect hook
     useEffect(()=>{
         fetch("https://travel-ke.onrender.com/hotels")
@@ -13,10 +14,25 @@ function Beaches() {
             console.log(data)
         })
     },[])
+    // function to toggle the view map 
+    function handleView(){
+        setShowMap(!showMap) // setting the opposite 
+    }
   return (
     <>
-        <SearchBeaches beaches={data}/>
-        <Maps/>
+    {/* conditional rendering to show the map */}
+    {
+        !showMap? (
+            <>
+               <button className="button-map"onClick={handleView}>View Map Locations</button>
+               <SearchBeaches beaches={data} />
+            </>
+        ):
+        <>
+        <button onClick={handleView} className="button-map">Hide Map</button >
+          <Maps />
+        </>
+    }
     </>
    
   )
