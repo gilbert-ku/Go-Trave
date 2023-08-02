@@ -1,11 +1,15 @@
 import './App.css';
-import Beaches from "./components/Beaches"
-
+import Hotels from "./components/Hotels";
+import AddHotelForm from './components/AddHotelForm';
 function App() {
-return (
-<Beaches/>
-)
+    return(
+        <div>
+            <AddHotelForm />
+            <Hotels />
+            <Beaches/>
+        </div>
+        
+    )
 
-}
 
 export default App;
