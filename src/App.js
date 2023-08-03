@@ -16,4 +16,21 @@ import AddHotelForm from './components/AddHotelForm';
     
 
 
+<<<<<<< HEAD
 export default App;
+=======
+  return (
+    <div className='main-container'>
+      <Home />
+      <AddHotelForm />
+      <Hotels />
+      <Beaches />
+      <Search ranches={ranches} onSearch={handleSearch} />
+      <RanchList ranches={filteredRanches.length > 0 ? filteredRanches : ranches} />
+      <BookingForm onBooking={handleBooking} />
+    </div>
+  );
+}
+
+export default App
+>>>>>>> b84149c (add merged work)
