@@ -42,4 +42,4 @@ const Search = ({ parks, onSearch }) => {
   );
 };
 
-export default Search;
+export default SearchPack;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Search from './components/Search';
+import SearchPark from './components/SearchPark';
 import ParkList from './components/ParkList';
 
 const App = () => {
@@ -48,7 +48,7 @@ const App = () => {
   return (
     <div className="app-container">
       <h1 className="app-heading">Park Booking</h1>
-      <Search parks={parks} onSearch={handleSearch} />
+      <SearchPark parks={parks} onSearch={handleSearch} />
       {filteredParks.length > 0 ? (
         <ParkList parks={filteredParks} onBooking={handleBooking} />
       ) : (
