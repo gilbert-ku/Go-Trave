@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import RanchList from './components/RanchList';
+import Search from './components/Search';
 import Home from './pages/Home';
 import Hotels from "./components/Hotels";
 import AddHotelForm from './components/AddHotelForm';
-import RanchList from './components/RanchList';
 import BookingForm from './components/BookingForm';
-import Search from './components/Search';
 import Beaches from './components/Beaches';
 
 function App() {
@@ -22,18 +22,14 @@ function App() {
       .catch((error) => console.error('Error fetching ranch data:', error));
   }, []);
 
-
   const handleBooking = (formData) => {
-   
     console.log('Booking ranch:', formData);
-    
+    // Implement the booking logic here
   };
 
   const handleSearch = (filteredRanches) => {
-    
     console.log('Filtered ranches:', filteredRanches);
-    setFilteredRanches(filteredRanches);  
-   
+    setFilteredRanches(filteredRanches);
   };
 
   return (
@@ -49,4 +45,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
