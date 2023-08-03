@@ -9,7 +9,6 @@ const Search = ({ ranches, onSearch }) => {
       return;
     }
 
-    // Filter the ranches based on the searchRanch and pass the filtered ranches to the parent component (App.js)
     const filteredRanches = ranches.filter(
       (ranch) =>
         ranch.name.toLowerCase().includes(searchRanch.toLowerCase())
