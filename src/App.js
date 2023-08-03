@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     // Fetch the ranch data from the provided URL
-    fetch('http://localhost:8001/ranches')
+    fetch('https://ranches.onrender.com/ranches')
       .then((response) => response.json())
       .then((data) => {
         setRanches(data);

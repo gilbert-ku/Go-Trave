@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const RanchList = ({ ranches }) => {
   // State to store the rating and review for each ranch
   const [ratings, setRatings] = useState({});
