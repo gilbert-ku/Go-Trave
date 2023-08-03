@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SearchPark from './components/SearchPark';
 import ParkList from './components/ParkList';
-// declaration of variables
+
 const App = () => {
   const [parks, setParks] = useState([]);
   const [filteredParks, setFilteredParks] = useState([]);
