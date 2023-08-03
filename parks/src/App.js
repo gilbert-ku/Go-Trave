@@ -10,8 +10,8 @@ const App = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Fetch data from http://localhost:4000/parks using fetch 
-    fetch('http://localhost:4000/parks') // Update the URL if needed
+    // Fetch data from https://parks-9cln.onrender.com/parks using fetch 
+    fetch('https://parks-9cln.onrender.com/parks') // Update the URL if needed
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
