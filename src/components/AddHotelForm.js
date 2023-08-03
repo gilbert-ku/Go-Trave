@@ -11,6 +11,7 @@ function Form() {
     const [rating, setRating] = useState("");
     const [amenities, setAmenities] = useState("");
     const [hotelsList, setHotelsList] = useState([]);
+    console.log(hotelsList )
     function handleInput(event) {
         const { name, value } = event.target;
         switch (name) {
@@ -171,7 +172,7 @@ function Form() {
         <div className="mainContainer">
         {hotelsList.map((hotel, index) => (
           <div key={index} className="hotelCards">
-            <img src={hotel.image_url} alt={`Hotel: ${hotel.name}`} />
+            <img src={hotel.image} alt={`Hotel: ${hotel.name}`} />
             <h1>{hotel.name}</h1>
             <p>{hotel.address}</p>
             <p>{hotel.description}</p>
