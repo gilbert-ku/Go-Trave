@@ -32,7 +32,7 @@ function App() {
   const handleSearch = (filteredRanches) => {
     
     console.log('Filtered ranches:', filteredRanches);
-    setFilteredRanches(filteredRanches);
+    setFilteredRanches(filteredRanches);  
    
   };
 
