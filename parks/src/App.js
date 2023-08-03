@@ -10,7 +10,7 @@ const App = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Fetch data from http://localhost:4000/parks using fetch
+    // Fetch data from http://localhost:4000/parks using fetch it
     fetch('http://localhost:4000/parks') // Update the URL if needed
       .then((response) => {
         if (!response.ok) {
