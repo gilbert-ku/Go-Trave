@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+   
+}
+.container .image-con img{
+    margin-top: 1.5rem;
+    width: 90rem;
+    border-radius: 20px;
+    height: 50rem;
+}
+.container .notice{
+    margin-top: -45rem;
+    width: 25rem;
+     text-align: center;
+     margin-left: 15rem;
+}
+.container .notice h1{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: lighter;
+}
+.container .search-box{
+    background: #fff;
+    width: 60rem;
+    height: 17rem;
+   margin-top: -35rem;
+   margin-left: -42rem;
+   border-radius: 20px;
+   display: block;
+   justify-content: center;
+}
+.container .search-box .categories{
+    background: rgba(151, 187, 197, 0.599);
+    margin-top: 2rem;
+    width: 50rem;
+    height: 3.5rem;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 3rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.container .search-box .categories button{
+    height: 2.5rem;
+    margin-top: .5rem;
+    width: 10rem;
+    background: #fff;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.container .search-box .form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   margin-top: 3rem;
+}
+.container .search-box .form label{
+    margin: .5rem;
+}
+.container .search-box .form input{
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 0 .5rem;
+    width: 8rem;
+}
+
+.container .search-box .form .submit{
+    float: right;
+    margin-top: 3rem;
+}
+.container .search-box .form .submit button{
+    width: 12rem;
+    height: 2.5rem;
+    background: rgb(79, 147, 126);
+    color: #fff;
+    border: 1px solid  rgb(79, 147, 126);
+    border-radius: 30px;
+}
+
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1rem;
+}
+.box-container .box{
+    padding: 3rem 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1.5rem rgba(151, 187, 197, 0.599);
+    text-align: center;
+    width: 25rem;
+    border-radius: 20px;
+}
+.box-container .box img{
+    height: 20rem;
+    width: 30rem;
+    margin-left: -40px;
+    margin-top: -50px;
+}
+.box-container .box p{
+    font-size: .8rem;
+    margin-top: .5rem;
+}
+.box-container .box span{
+    font-size: .8rem;
+    color: red;
+    margin-top: .5rem;
+}
