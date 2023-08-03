@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SearchPark from './components/SearchPark';
 import ParkList from './components/ParkList';
-
+// declaration of variables
 const App = () => {
   const [parks, setParks] = useState([]);
   const [filteredParks, setFilteredParks] = useState([]);
@@ -10,7 +10,7 @@ const App = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Fetch data from http://localhost:4000/parks using fetch it
+    // Fetch data from http://localhost:4000/parks using fetch 
     fetch('http://localhost:4000/parks') // Update the URL if needed
       .then((response) => {
         if (!response.ok) {
