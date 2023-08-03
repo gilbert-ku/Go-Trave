@@ -45,27 +45,37 @@ const ParkList = ({ parks, onBooking }) => {
   };
 
   return (
-    <div>
-      <h2>Park List</h2>
+    <div className="park-list-container">
+      <h2 className="park-list-heading">Park List</h2>
       <ul className="park-list">
         {parks.map((park) => (
-          <li key={park.id} className="park-item" onClick={() => handleParkClick(park)}>
+          <li
+            key={park.id}
+            className="park-item"
+            onClick={() => handleParkClick(park)}
+          >
             <div className="park-image-container">
-              <img src={park.image_url} alt={park.name} className="park-image" />
+              <img
+                src={park.image_url}
+                alt={park.name}
+                className="park-image"
+              />
             </div>
             <div className="park-details">
-              <h3>{park.name}</h3>
-              <p>{park.description}</p>
-              <p>Location: {park.location}</p>
+              <h3 className="park-name">{park.name}</h3>
+              <p className="park-description">{park.description}</p>
+              <p className="park-location">Location: {park.location}</p>
+              <p className="park-contact">Contact: {park.contact}</p>
+              <p className="park-ratings">Customer Ratings: {park.customer_ratings}</p>
             </div>
           </li>
         ))}
       </ul>
       {selectedPark && (
         <div className="selected-park">
-          <h3>Book {selectedPark.name}</h3>
+          <h3 className="booking-heading">Book {selectedPark.name}</h3>
           <form onSubmit={handleSubmit}>
-            <div>
+            <div className="form-group">
               <label htmlFor="name">Name: </label>
               <input
                 type="text"
@@ -76,7 +86,7 @@ const ParkList = ({ parks, onBooking }) => {
                 required
               />
             </div>
-            <div>
+            <div className="form-group">
               <label htmlFor="numberOfPeople">Number of People: </label>
               <input
                 type="number"
@@ -87,7 +97,7 @@ const ParkList = ({ parks, onBooking }) => {
                 required
               />
             </div>
-            <div>
+            <div className="form-group">
               <label htmlFor="duration">Duration (in hours): </label>
               <input
                 type="number"
@@ -98,7 +108,9 @@ const ParkList = ({ parks, onBooking }) => {
                 required
               />
             </div>
-            <button type="submit">Book</button>
+            <button type="submit" className="booking-button">
+              Book
+            </button>
           </form>
         </div>
       )}

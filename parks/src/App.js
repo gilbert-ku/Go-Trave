@@ -46,8 +46,8 @@ const App = () => {
   }
 
   return (
-    <div>
-      <h1>Park Booking</h1>
+    <div className="app-container">
+      <h1 className="app-heading">Park Booking</h1>
       <Search parks={parks} onSearch={handleSearch} />
       {filteredParks.length > 0 ? (
         <ParkList parks={filteredParks} onBooking={handleBooking} />
@@ -55,25 +55,19 @@ const App = () => {
         <ParkList parks={parks} onBooking={handleBooking} />
       )}
 
-      <h2>My Bookings</h2>
-      {bookings.map((booking, index) => (
-        <div key={index}>
-          <ol>
-            <p>Park: {booking.park.name}</p>
-            <p>Description: {booking.park.description}</p>
-            <p>Location: {booking.park.location}</p>
-            <img
-              src={booking.park.image_url}
-              alt={booking.park.name}
-              style={{ maxWidth: '300px' }}
-            />
-            <p>Name: {booking.name}</p>
-            <p>Number of People: {booking.numberOfPeople}</p>
-            <p>Duration (in hours): {booking.duration}</p>
-          </ol>
-          <hr />
-        </div>
-      ))}
+      <h2 className="bookings-heading">My Bookings</h2>
+      <div className="bookings-list">
+        {bookings.map((booking, index) => (
+          <div key={index} className="booking-item">
+            <ol>
+              <p>Park: {booking.park.name}</p>
+              <p>Customer Ratings: {booking.park.customer_ratings}</p>
+              <p>Contact: {booking.park.contact}</p>
+              <hr />
+            </ol>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

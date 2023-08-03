@@ -11,3 +11,195 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+/* font-family: 'ABeeZee', sans-serif; */
+
+/* General Styles */
+
+body {
+  font-family: 'ABeeZee', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eeeaf5;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.bookings-heading {
+  font-size: 1.8rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* ParkList Styles */
+
+.park-list-container {
+  margin-bottom: 40px;
+}
+
+.park-list-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.park-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.park-item {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.park-item:hover {
+  transform: translateY(-5px);
+  background-color: #cfa182;
+}
+
+.park-image-container {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  border-bottom: 1px solid #ccc;
+}
+
+.park-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.park-details {
+  padding: 15px;
+}
+
+.park-name {
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.park-description {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.park-location {
+  font-size: 1.1rem;
+  color: #888;
+}
+
+.park-contact {
+  font-size: 1.1rem;
+  color: #888;
+}
+
+.park-ratings {
+  font-size: 1.1rem;
+  color: #888;
+}
+
+/* Selected Park Styles */
+
+.selected-park {
+  margin-top: 40px;
+}
+
+.booking-heading {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.booking-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-button:hover {
+  background-color: #0056b3;
+}
+
+/* Bookings List Styles */
+
+.bookings-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.booking-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-item ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.booking-item p {
+  font-size: 1.1rem;
+  margin: 0;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
