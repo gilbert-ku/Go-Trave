@@ -121,19 +121,21 @@ function Home() {
       </div>
 
       {data !== null ? (
-        <div className="box-container">
+        <div className="main-container">
           {data.map((item) => (
-            <div className="box" key={item.id}>
-              <img src={item.images[0]} alt={item.name} />
-              <p className="title">{item.name}</p>
-              <span> {item.city}</span>
-              <div className="details">
+            <div className="beach-item" key={item.id}>
+              <img src={item.images[0]} alt={item.name} className='beach-image'/>
+              
+              <div className="beach-details">
+                <p className="title">{item.name}</p>
+                <span> {item.city}</span>
                 <p>Bedrooms {item.bedrooms}</p>
                 <p>Bathrooms {item.bathrooms}</p>
-                <p> Beds {item.beds}</p>
+                <p> Beds {item.beds}</p> 
+                <p> Address {item.address}</p>
                 <br />
               </div>
-              <p> Address {item.address}</p>
+             
               <br />
               <PayPalScriptProvider options={initialOptions}>
                 <Button />

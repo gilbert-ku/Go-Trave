@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+}
+.navbar h1{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
