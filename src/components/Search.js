@@ -1,15 +1,26 @@
 import React, { useState } from 'react';
 
+<<<<<<< HEAD
 const Search = ({ ranches, parks, onSearch }) => {
   const [searchRanch, setSearchRanch] = useState('');
   const [searchLocation, setSearchLocation] = useState('');
 
   const handleRanchSearch = () => {
+=======
+const Search = ({ ranches, onSearch }) => {
+  const [searchRanch, setSearchRanch] = useState('');
+
+  const handleSearch = () => {
+>>>>>>> f071018 (ranches branch added and made it accessible)
     if (!ranches || !Array.isArray(ranches)) {
       console.error('Ranches array is not available.');
       return;
     }
 
+<<<<<<< HEAD
+=======
+    // Filter the ranches based on the searchRanch and pass the filtered ranches to the parent component (App.js)
+>>>>>>> f071018 (ranches branch added and made it accessible)
     const filteredRanches = ranches.filter(
       (ranch) =>
         ranch.name.toLowerCase().includes(searchRanch.toLowerCase())
@@ -17,6 +28,7 @@ const Search = ({ ranches, parks, onSearch }) => {
     onSearch(filteredRanches);
   };
 
+<<<<<<< HEAD
   const handleParkSearch = () => {
     if (!parks || !Array.isArray(parks)) {
       console.error('Parks array is not available.');
@@ -41,11 +53,21 @@ const Search = ({ ranches, parks, onSearch }) => {
   const handleKeyPress = (e, searchFunction) => {
     if (e.key === 'Enter') {
       searchFunction();
+=======
+  const handleInputChange = (e) => {
+    setSearchRanch(e.target.value);
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch();
+>>>>>>> f071018 (ranches branch added and made it accessible)
     }
   };
 
   return (
     <div className='srch'>
+<<<<<<< HEAD
       <div>
         <h2>Search for Ranches</h2>
         <input
@@ -69,6 +91,17 @@ const Search = ({ ranches, parks, onSearch }) => {
         />
         <button onClick={handleParkSearch}>Search</button>
       </div>
+=======
+      <h2>Search for Ranches</h2>
+      <input className='srch1'
+        type="text"
+        value={searchRanch}
+        onChange={handleInputChange}
+        onKeyPress={handleKeyPress}
+        placeholder="Enter a ranch name"
+      />
+      <button className='srch2' onClick={handleSearch}>Search</button>
+>>>>>>> f071018 (ranches branch added and made it accessible)
     </div>
   );
 };
