@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    padding: 0 2rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 500px;
+}
+
+li {
+    padding-left: 100px;
+    margin-left:100px;
+    font-size: 1.2em;
+}
+
+a {
+    color: black;
+    text-decoration:none;
+}
+
+.logo{
+    font-size: 2em;
+    user-select: none;
+    
+}
+p{
+    font-size: 2em;
+}
+h2 {
+    margin-left: 800px;
+    font-size: 1.7em;
+}
+h3 {
+    margin-left: 1400px;
+    font-size: 1.6em;
+}
+ol {
+    margin-left: 1360px;
+}
+nav {
+    margin:auto
+}
+a:hover {
+    color: orange
+}
+
+
+
