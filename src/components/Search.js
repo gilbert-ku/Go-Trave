@@ -18,9 +18,12 @@ const Search = ({ ranches, onSearch }) => {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     // Filter the ranches based on the searchRanch and pass the filtered ranches to the parent component (App.js)
 >>>>>>> f071018 (ranches branch added and made it accessible)
+=======
+>>>>>>> 1c42c3f (created function to enable a customer share their reviews about the ranch as well as rate the ranch)
     const filteredRanches = ranches.filter(
       (ranch) =>
         ranch.name.toLowerCase().includes(searchRanch.toLowerCase())
